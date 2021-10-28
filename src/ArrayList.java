@@ -7,8 +7,11 @@
  Date: 10/28/21
  **/
 public class ArrayList {
+    //intance data
+    ArrayList arr = new ArrayList();
+    
     public static void main(String[] args)
     {
-        ArrayList arr = new ArrayList();
+
     }
 }
