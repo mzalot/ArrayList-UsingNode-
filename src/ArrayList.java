@@ -8,7 +8,7 @@
  **/
 public class ArrayList {
     //intance data
-    ArrayList arr = new ArrayList();
+    NodeProject node = new NodeProject();
     
     public static void main(String[] args)
     {
