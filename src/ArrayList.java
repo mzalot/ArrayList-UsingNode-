@@ -17,7 +17,7 @@ public class ArrayList <T>{
         //node to find current node
         NodeProject currentNode = node;
         for(int i = 0; i< index; i++){
-            currentNode = currentNode.getNode1();
+            currentNode = currentNode.getNode2();
         }
         //add the new node with the data
         NodeProject nodeAdd = new NodeProject(data);
