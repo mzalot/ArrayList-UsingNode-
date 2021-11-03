@@ -35,6 +35,51 @@ public class ArrayList <T>{
     public int size(){
         return counter;
     }
+
+    //doing conor's work smh
+
+    //remove method fix
+    public T remove(int i){
+        //node to find current node
+        NodeProject currentNode = node;
+        //go through indices
+        for(int index = 0; i< index; i++){
+            currentNode = currentNode.getNode2();
+        }
+        //move node above
+        NodeProject replaceNode = currentNode.getNode1();
+        replaceNode.setNode2(currentNode.getNode2());
+        //reduce size
+        counter--;
+        //return
+        return (T) currentNode.getValue();
+    }
+
+    //get method fix
+    public T get(int i){
+        //node to find current node
+        NodeProject currentNode = node;
+        //go through indices
+        for(int index = 0; i< index; i++){
+            currentNode = currentNode.getNode2();
+        }
+        return (T) currentNode.getValue();
+    }
+
+    //set method
+    public T set(int i, T data){
+        //node to find current node
+        NodeProject currentNode = node;
+        //go through indices
+        for(int index = 0; i< index; i++){
+            currentNode = currentNode.getNode2();
+        }
+        //store removed data to return
+        T removedData = (T) currentNode.getValue();
+        currentNode.setValue(data);
+        return removedData;
+
+    }
     public static void main(String[] args) {
     }
 }
