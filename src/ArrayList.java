@@ -6,7 +6,7 @@
  Collaboration:
  Date: 10/28/21
  **/
-public class ArrayList {
+public class ArrayList <T>{
     //intance data
     NodeProject node = new NodeProject();
     //counter for index of node
