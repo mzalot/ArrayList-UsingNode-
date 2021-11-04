@@ -8,9 +8,9 @@
  **/
 public class ArrayList <T>{
     //instance data
-    NodeProject node = new NodeProject();
+    private NodeProject node = new NodeProject();
     //counter for index of node
-    int counter = 0;
+    private int counter = 0;
 
     //void add method
     public void add(int index, T data){
