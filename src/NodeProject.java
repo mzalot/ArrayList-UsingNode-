@@ -49,6 +49,7 @@ public class NodeProject <T>{
         makeParent(node2);
     }
 
+
     //make a child node
     private void makeChild(NodeProject node1){
         this.node2 = node1;
