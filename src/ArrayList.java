@@ -7,39 +7,6 @@
  Date: 10/28/21
  **/
 public class ArrayList <T>{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     //instance data
     private NodeProject node = new NodeProject();
     //counter for index of node
