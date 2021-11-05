@@ -40,7 +40,6 @@ public class ArrayList <T>{
         //If no exceptions
         return true;
         }
-    }
     
     //void add method
     public void add(int index, T data){
@@ -110,5 +109,7 @@ public class ArrayList <T>{
         return removedData;
 
     }
+
+}
 
 
