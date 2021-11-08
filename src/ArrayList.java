@@ -1,6 +1,3 @@
-import javax.xml.soap.Node;
-
-/**
      ArrayList
      The program will create an arraylist that uses
      Author: Ishan
@@ -132,7 +129,4 @@ import javax.xml.soap.Node;
             }
 
      }
-
-    }
-
-
+}
