@@ -1,10 +1,11 @@
-     ArrayList
-     The program will create an arraylist that uses
-     Author: Ishan
-     Collaborator(s):
-     Collaboration:
-     Date: 10/28/21
-     **/
+/**
+ArrayList
+ The program will create an arraylist that uses
+ Author: Ishan, Connor, Mareks
+ Collaborator(s):
+ Collaboration:
+ Date: 10/28/21
+ **/
     public class ArrayList <T>{
         //instance data
         private NodeProject node;
@@ -111,13 +112,13 @@
 
         //tester
     //tests if it works
-     public boolean tester(ArrayList test){
-            NodeProject testNode = new NodeProject(5);
+     public boolean tester(){
+            ArrayList test = new ArrayList();
          test.add(0,5);
          test.size();
          test.remove(5);
          test.set(0,5);
-            if(testNode.equals(test.add(5))){
+            if(test.equals(test.add(5))){
                 return true;
             }
 
@@ -128,5 +129,11 @@
                 return false;
             }
 
+     }
+     //public static void main to test
+     public static void main(String[]args)
+     {
+         ArrayList a = new ArrayList();
+         System.out.println(a.tester());
      }
 }
