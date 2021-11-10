@@ -72,7 +72,7 @@ ArrayList
             //node to find current node
             NodeProject currentNode = node;
             //go through indices
-            for(int index = 0; i< index; i++){
+            for(int index = i; i< counter; i++){
                 currentNode = currentNode.getNode2();
             }
             //move node above
